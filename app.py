@@ -20,7 +20,7 @@ def health():
     }
 
 @app.get("/version")
-def version()
+def version():
     return {
         "application": "Pi5 DevOps Lab",
         "version": "0.1.2"
